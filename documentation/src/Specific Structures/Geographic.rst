@@ -1,0 +1,5 @@
+Geographic
+===========
+
+- GeographicLocation
+- GeographicStructure

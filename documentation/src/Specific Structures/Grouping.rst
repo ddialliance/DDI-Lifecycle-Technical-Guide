@@ -1,0 +1,31 @@
+Grouping
+==========
+
+- CategoryGroup
+- CodeListGroup
+- ConceptGroup
+- ConceptualVariableGroup
+- ControlConstructGroup
+- DevelopmentActivityGroup
+- GeographicLocationGroup
+- GeographicStructureGroup
+- Group
+- InstructionGroup
+- InstrumentGroup
+- ManagedRepresentationGroup
+- MeasurementGroup
+- NCubeGroup
+- OrganizationGroup
+- OtherMaterialGroup
+- PhysicalInstanceGroup
+- PhysicalStructureGroup
+- ProcessingEventGroup
+- ProcessingInstructionGroup
+- QualityStandardGroup
+- QualityStatementGroup
+- QuestionGroup
+- RecordLayoutGroup
+- RepresentedVariableGroup
+- UnitTypeGroup
+- UniverseGroup
+- VariableGroup
