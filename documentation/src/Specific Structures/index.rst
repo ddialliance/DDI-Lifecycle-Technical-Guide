@@ -1,6 +1,5 @@
-*****************
-Technical Guide
-*****************
+Specific Structures
+====================
 
 .. toctree::
    :caption: Table of contents
