@@ -80,7 +80,7 @@ html_show_sphinx = False
 #html_show_copyright = True
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'DDIdoc'
+htmlhelp_basename = 'DDI-LIfecycle-3.3-Technical-Guide'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -91,7 +91,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'DDI.tex', u'DDI Documentation',
+  ('index', 'DDI.tex', u'DDI Lifecycle (3.3) Technical Guide',
    u'DDI', 'manual'),
 ]
 
@@ -101,7 +101,7 @@ latex_documents = [
 epub_title = u'DDI 3.3 Documentation'
 epub_author = u'DDI Alliance'
 epub_publisher = u'DDI Alliance'
-epub_copyright = u'2019 DDI Alliance'
+epub_copyright = u'2020 DDI Alliance'
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
