@@ -26,6 +26,9 @@ Both approaches will be discussed within the context of each User Story **[3 Use
 Sequence of ResourcePackage, Group, and StudyUnit
 ..................................................
 
+.. table:: 
+   :align: left
+
 +-------------------------------+------------------------------+--------------------------------------------+
 | ResourcePackage               | Group                        | StudyUnit                                  |
 +===============================+==============================+============================================+
@@ -63,8 +66,12 @@ Sequence of ResourcePackage, Group, and StudyUnit
 | Embargo                       | Embargo                      | Embargo                                    |
 +-------------------------------+------------------------------+--------------------------------------------+
 
-MAINTIANABLE MODULES, CHOICE OF INLINE OR BY REFERENCE 
+
+Maintainable Modules, Choice of Inline or by Reference
 .......................................................
+
+.. table:: 
+   :align: left
 
 +-------------------------------+--------------------------------+--------------------------------------------+
 | ResourcePackage               | Group                          | StudyUnit                                  |
@@ -120,8 +127,12 @@ MAINTIANABLE MODULES, CHOICE OF INLINE OR BY REFERENCE
 |                               | SubGroup                       |                                            |
 +-------------------------------+--------------------------------+--------------------------------------------+
 
-MAINTIANABLE DDI SCHEMES INLINE ONLY 
+
+Maintainable DDI Schemes, Inline Only 
 .......................................................
+
+.. table:: 
+   :align: left
 
 +-------------------------------+--------------------------------+--------------------------------------------+
 | ResourcePackage               | Group                          | StudyUnit                                  |
