@@ -9,11 +9,10 @@ Structural Features
    
    Exchange structures.rst
    Maintainable structures.rst
-   Schemes.rst 
+   Scheme Groups.rst
    Organizing Publication Package Contents.rst
    Managing Metadata Over Time.rst
    Versioning.rst
-   Scheme Groups.rst
    
 
 
