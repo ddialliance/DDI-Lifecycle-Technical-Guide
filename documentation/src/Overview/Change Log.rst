@@ -21,3 +21,23 @@ Changes made between DDI-Lifecycle version 3.2 and DDI-Lifecycle version
 
 For a complete listing of issues reviewed in the development of
 DDI-Lifecycle version 3.3 see: https://ddi-alliance.atlassian.net/issues/?filter=11223
+
+Summary of Additions
+--------------------
+
+
+
+Summary of Changes
+-------------------
+
+
+*CodeValueType and InternationalCodeValueType* have had all attribute names changed from codeListXxx to controlledVocabularyXxx. This aligns the naming with the Controlled Vocabularies published by the DDI and prevents name conflicts with the element CodeList in the DDI schemas
+
+*ComponentParts* changed from type=”ComponentPartsType” to type=”LocationValueBundleType”.
+
+*ControlConstruct* reference no longer supports the use of binding
+
+*DefiningConceptReference* moved from conceptualcomponent.xsd to reusable.xsd
+
+
+
