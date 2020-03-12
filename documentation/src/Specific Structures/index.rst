@@ -16,4 +16,4 @@ Specific Structures
    Statistical Classification.rst
    Study.rst
    Survey Development.rst
-   
+
