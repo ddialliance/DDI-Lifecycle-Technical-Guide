@@ -1,8 +1,5 @@
-.. _techguide-label:
-
-*****************
-Technical Guide
-*****************
+Overview
+==========
 
 .. toctree::
    :caption: Table of contents
