@@ -25,6 +25,13 @@ DDI-Lifecycle version 3.3 see: https://ddi-alliance.atlassian.net/issues/?filter
 Summary of Additions
 --------------------
 
+The main addtions are: 
+
+- MeasurementItem is a new structure modelled on QuestionItem to support Measurement
+- Survey Development (new structures to support expanded functionality)
+- Statistical Classification (new structures to support GSIM)
+- UnitType (new element to support alignment with ISO11179 and GSIM)
+- New constructs - Split and SplitJoin to support concurrent processing; DevelopmentStep, SampleStep, SamplingStage to support Survey Development and MeasurementConstruct for MeasurementItems
 
 
 Summary of Changes
