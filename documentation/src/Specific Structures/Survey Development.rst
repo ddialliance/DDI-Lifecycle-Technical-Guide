@@ -1,8 +1,8 @@
 Survey Development
-===================
+-------------------
 
 Sampling
-----------
+........
 
 Includes:
 
@@ -26,7 +26,7 @@ Sampling Plans and Sample Frames can be organized and grouped within a Sampling 
 [insert diagram here]
 
 Data Capture Development
--------------------------
+.........................
 
 Includes:
 
@@ -69,4 +69,4 @@ Note that the process of selection, access to, and reuse of existing data found 
 
 
 Weighting
------------
+..........
