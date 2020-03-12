@@ -1,4 +1,4 @@
-QualityStatement
+Quality Statement
 ==================
         
 .. code-block:: XML    
