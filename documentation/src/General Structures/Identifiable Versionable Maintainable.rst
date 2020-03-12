@@ -16,6 +16,9 @@ Versionable (or Maintainable if there is not a parent Versionable) at the point 
 
 In other words an Identifiable could go from a Version 1 to a Version 4 without ever having a Version 2 or 3 if the cause for versioning did not involve any change in the Identifiable object within Version 2 and 3 of the parent Versionable.
 
+.. table:: 
+   :align: left
+   
 +------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Identifiable Object    | Extension base is AbstractIdentifiable                                                                                                                                             |
 +========================+====================================================================================================================================================================================+
@@ -72,6 +75,9 @@ Note that it is up to the individual content provider to determine whether an ob
 Uniqueness discussion within this section). Their Agency identificationmatches that of the object’s immediate parent Maintainable at the point of creation. 
 
 In other words the Agency of an object does not change simply because it is included by reference in a Maintainable managed by a different agency. The Version number of the object changes each time its content changes. See Versioning for a discussion of when and how this may be implanted within different organizations or projects. 
+
+.. table:: 
+   :align: left
 
 +---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Versionable Object              | Extension base is AbstractIdentifiable                                                                                                                                             |
@@ -144,6 +150,9 @@ Schemes are similar to data base tables, containing a stack of similar type obje
 relevance to each other, i.e. a classification scheme captured in a DDI Category Scheme. There is one unique form of a Maintainable which is the CodeList. A CodeList is a Maintainable in its own right for the purpose of supporting the statistical production process. However it can only be published within the context of a parent Maintainable Scheme. 
 
 All Schemes and Modules may be published within the context of a Study Unit or Group (a collection of Study Units) or as a separate Resource Package item primarily for the purpose of reuse.
+
+.. table:: 
+   :align: left
 
 +---------------------------------+-----------------------------------------------------------------------------------------------------+
 | Maintainable Object             | Extension base is AbstractMaintainable                                                              |
