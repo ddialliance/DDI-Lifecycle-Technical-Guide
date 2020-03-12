@@ -98,7 +98,7 @@ latex_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'DDI 3.3 Documentation'
+epub_title = u'Lifecycle (3.3) Technical Guide'
 epub_author = u'DDI Alliance'
 epub_publisher = u'DDI Alliance'
 epub_copyright = u'2020 DDI Alliance'
