@@ -11,7 +11,6 @@ DDI Lifecycle (3.3) Technical Guide
    
    About/index.rst
    Overview/index.rst
-   ChangeLog.rst
    Other Standards/index.rst
    Structural Features/index.rst
    General Structures/index.rst
