@@ -18,9 +18,7 @@ Schemes are designed to bring together sets of similar objects (i.e. Variables, 
 N.B.Those names starting with @ are XML attributes, all others are XML
 elements.
 
-The following objects which consist of the extension bases used for
-identification and referencing purposes are considered to be
-Administrative metadata for the purposes of versioning:
+The following objects which consist of the extension bases used for identification and referencing purposes are considered to be Administrative metadata for the purposes of versioning:
 
 
 Reference and Scheme Reference Type
@@ -28,9 +26,6 @@ Reference and Scheme Reference Type
 
 Reference Type
 ...............
-
-A *Reference Type" is a ............
-
 
 +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Reference Type                 |                                                                                                                                                                                                                                      |
@@ -75,7 +70,6 @@ A *Reference Type" is a ............
 Scheme Reference Type
 ......................
 
-A *Scheme Reference Type" is a ............
 
 +--------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Scheme Reference Type          |                                                                                                                                                                                                                                      |
