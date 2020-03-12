@@ -96,7 +96,7 @@ Maintainable Modules, Choice of Inline or by Reference
 +-------------------------------+--------------------------------+--------------------------------------------+
 |                               | NominalDelineationScheme       | NominalDelineationScheme                   |
 +-------------------------------+--------------------------------+--------------------------------------------+
-|                               | ScaleDelineationScheme         | ScaleDelineationScheme                     "
+|                               | ScaleDelineationScheme         | ScaleDelineationScheme                     |
 +-------------------------------+--------------------------------+--------------------------------------------+
 |                               | LocationDelineationScheme      | LocationDelineationScheme                  |
 +-------------------------------+--------------------------------+--------------------------------------------+
