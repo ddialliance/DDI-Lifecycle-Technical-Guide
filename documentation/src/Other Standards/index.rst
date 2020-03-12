@@ -19,4 +19,5 @@ mapped relationships to the following standards
    SDMX.rst
    METS.rst
    PREMIS.rst
+   XHTML.rst
    
