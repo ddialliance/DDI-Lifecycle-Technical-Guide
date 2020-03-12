@@ -1,5 +1,5 @@
-Metadata Encoding and Transmission Standard
-============================================
+Metadata Encoding and Transmission Standard (METS)
+===================================================
 
 METS is a standard developed as an initiative of the Digital Library
 Federation and provides a consistent outer wrapper for digital objects
