@@ -23,7 +23,7 @@ A Sample describes the implementation of a Sampling Plan as well as the specific
 
 Sampling Plans and Sample Frames can be organized and grouped within a Sampling Information Scheme. They are also capable of capturing complex sample stages including stratification, and experimental design models.
 
-**Figure 1.  Overview of Sampling**
+**Figure 1.  Overview of Sampling - Capturing the process and linking information to the Collection Event**
 
 .. |figure1| image:: ../images/Sampling.png
 
@@ -69,7 +69,11 @@ Development Results - describe the final result of a the implementation of a dev
 
 Note that the process of selection, access to, and reuse of existing data found in registries, administrative data systems, or published data is captured using a Collection Event containing a process description or instrument (such as an API). Data Capture Development can describe the development of single or sequenced Control Constructs expressed individually or within an Instrument. 
 
-[insert diagram here]
+**Figure 2.  Overview of Data Capture Development**
+
+.. |figure2| image:: ../images/DataCaptureDevelopment.png
+
+|figure2|
 
 
 Weighting
