@@ -23,7 +23,11 @@ A Sample describes the implementation of a Sampling Plan as well as the specific
 
 Sampling Plans and Sample Frames can be organized and grouped within a Sampling Information Scheme. They are also capable of capturing complex sample stages including stratification, and experimental design models.
 
-[insert diagram here]
+**Figure 1.  Overview of Sampling**
+
+.. |figure1| image:: ../images/Sampling.png
+
+|figure1|
 
 Data Capture Development
 .........................
