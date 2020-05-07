@@ -13,7 +13,7 @@ Comparison and linkages within and between classifications and series are captur
 
 DDI has expanded Representations to support the direct use of Statistical Classifications as Value Representations or Response Domain. The structure is similar to that used for expressing Code Lists, Geographic Structure Codes, or Geographic Location Codes. It allows for the use of the full structures, specific levels, ranges of codes, or specified codes. This allows the user to retain the context of codes within their original classification structure.
 
-**Figure 1.  Overview of Statistical Classification **
+**Figure 1.  Overview of Statistical Classification**
 
 .. |figure1| image:: ../images/	StatisticalClassification.png
 
