@@ -63,7 +63,7 @@ Development Activity - has a number of specializations in areas of development t
 
 Develpment Implementation - specifies the information of actual development work. What Development Activity was implemented, who performed the activity, and when the action was completed. It can provide detailed information on the steps of the process including internal iterations and valdiation criteria. 
 
-Development Step (specialization of a Control Costruct) - implements a Development Activity for a Development Object. It captures information on the prerequisite for the step, conditions for acceptance (when the step is complete and can be exited), and the date of the activity. This can be a single process step or part of a more complex process.
+Development Step (specialization of a Control Construct) - implements a Development Activity for a Development Object. It captures information on the prerequisite for the step, conditions for acceptance (when the step is complete and can be exited), and the date of the activity. This can be a single process step or part of a more complex process.
 
 Development Results - describe the final result of a the implementation of a development activity. The objects of the development work can now link to the appropriate Development Results and then follow this back to specific a Development Implementation of a Development Activity.
 
