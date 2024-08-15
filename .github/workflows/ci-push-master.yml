@@ -27,7 +27,7 @@ jobs:
       run: pip install -r build/requirements.txt
 
     - name: Run build-windows.bat
-      run: .\documentation\src\make.bat dirhtml
+      run: .\build\build-windows.bat
       shell: cmd
 
     - name: Copy and rename outputs
