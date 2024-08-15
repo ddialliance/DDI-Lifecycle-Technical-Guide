@@ -1,0 +1,43 @@
+name: Master commit CI
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    if: github.repository == 'ddialliance/DDI-Lifecycle-Technical-Guide'
+    runs-on: windows-latest
+
+    steps:
+    - name: Get short SHA
+      run: echo "SHORT_SHA=$("${{ github.sha }}".SubString(0, 8))" >> $env:GITHUB_ENV
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+    
+    - name: Install python dependencies
+      run: pip install -r build/requirements.txt
+
+    - name: Run build-windows.bat
+      run: .\documentation\src\make.bat dirhtml
+      shell: cmd
+
+    - name: Copy and rename outputs
+      shell: pwsh
+      run: |        
+        ren .\documentation\_build\ddi ddi-lifecycle-technical-guide-${{env.SHORT_SHA}}
+        7z a -tzip ".\documentation\_build\ddi-lifecycle-technical-guide-${{env.SHORT_SHA}}.zip" ".\documentation\_build\ddi-lifecycle-technical-guide-${{ENV.SHORT_SHA}}\*"
+
+    - name: Make all outputs artifact
+      uses: actions/upload-artifact@v4
+      with:
+          name: ddi-lifecycle-technical-guide-${{env.SHORT_SHA}}
+          path: .\documentation\_build\ddi-lifecycle-technical-guide-${{env.SHORT_SHA}}.zip
